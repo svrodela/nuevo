@@ -7,7 +7,6 @@ const path = require('path');
 const IndexRoutes = require('./routers/index.js');
 const { default: mongoose } = require('mongoose');
 
-
 app.set('port', process.env.PORT || 3000 ); //asigno puerto 3000
 
 //Middleware utiliza morgan

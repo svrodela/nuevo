@@ -5,7 +5,7 @@ const Venta = require('../models/datos');
 
 router.get('/', async (req, res) =>{
     const datos = await Venta.find();
-    console.log("los datos son".datos);
+    console.log(datos);
     res.render('index.ejs',{
         datos
     });
